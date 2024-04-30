@@ -1,3 +1,10 @@
-import example_module
+import example_module as mod
+import platform
 
-example_module.greeting("AmruthaPavan")
+x = platform.system()
+print(x)
+
+mod.greeting("AmruthaPavan")
+Data = mod.person_details["age"]
+print(Data)
+print(dir(mod))
